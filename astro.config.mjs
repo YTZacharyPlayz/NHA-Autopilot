@@ -5,6 +5,7 @@ import starlight from '@astrojs/starlight';
 // https://astro.build/config
 export default defineConfig({
 	site: 'https://ytzacharyplayz.github.io',
+	base: 'NHA-Autopilot',
 	integrations: [
 		starlight({
 			title: 'My Docs',
