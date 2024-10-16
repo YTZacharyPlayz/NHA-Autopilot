@@ -1,0 +1,11 @@
+import { defineConfig } from 'astro/config';
+import starlight from '@astrojs/starlight';
+
+export default defineConfig({
+  integrations: [
+    starlight({
+      title: 'Docs With Custom 404',
+      disable404Route: true,
+    }),
+  ],
+});
